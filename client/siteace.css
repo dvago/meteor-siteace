@@ -1,0 +1,46 @@
+/* CSS declarations go here */
+.hidden_div{
+	display:none;
+}
+/* Search */
+.searchbox {
+	max-width: 150px;
+	margin-top: 8px;
+}
+
+.searchbox .btn {
+	padding: 0;
+	background: none;
+	border: none;
+}
+
+@media (min-width: 768px) {
+	.searchbox {
+		max-width: 250px;
+	}
+}
+/* List */
+.vote {
+	padding: 0 0 0 15px;
+	font-size: 2.5em;
+}
+.list-group-item .btn {
+	padding: 5px 8px;
+}
+/* Comments */
+.bs-callout {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+/* login widget */
+
+#login-buttons {
+	padding: 0 15px;
+	line-height: 50px;
+}
+#login-dropdown-list {
+	top: 25px;
+}
